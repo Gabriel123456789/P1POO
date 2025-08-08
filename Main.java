@@ -23,10 +23,18 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Onibus onibus = new Onibus("hsuwhj", 2023, 40);
-        cadastraOnibus(onibus);
-        Caminhao caminhao = new Caminhao("kmshb", 2020, 5);
-        cadastraCaminhao(caminhao);
+        Onibus onibus1 = new Onibus("hsuwhj", 2023, 40);
+        cadastraOnibus(onibus1);
+
+        Caminhao caminhao1 = new Caminhao("kmshb", 2020, 5);
+        cadastraCaminhao(caminhao1);
+
+        Onibus onibus2 = new Onibus("ascuhj", 2021, 30);
+        cadastraOnibus(onibus2);
+
+        Caminhao caminhao2 = new Caminhao("bfxshb", 2020, 3);
+        cadastraCaminhao(caminhao2);
+
         printAlugados(getVeiculosAlugados());
     }
 }
